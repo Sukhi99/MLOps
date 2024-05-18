@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "rs-churn-service"
+version = "1.0"
+description = ""
+authors = ["Rishab Sukhija"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+numpy = "^1.26.4"
+flask = "^3.0.3"
+scikit-learn = "0.24.2"
+gunicorn = "^22.0.0"
+pandas = "^2.2.2"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
