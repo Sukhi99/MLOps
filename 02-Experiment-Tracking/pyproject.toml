@@ -1,0 +1,24 @@
+[tool.poetry]
+name = "mlops-experiment-tracking"
+version = "1.0"
+description = "In this module the experimentation around the mlflow for experiment tracking is practiced"
+authors = ["Sukhi99 <rishabsukhija77@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+mlflow = "^2.13.0"
+jupyter = "^1.0.0"
+scikit-learn = "^1.5.0"
+pandas = "^2.2.2"
+seaborn = "^0.13.2"
+hyperopt = "^0.2.7"
+xgboost = "^2.0.3"
+fastparquet = "^2024.5.0"
+boto3 = "^1.34.110"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
